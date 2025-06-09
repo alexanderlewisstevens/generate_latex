@@ -17,10 +17,13 @@ MD_OUT ?= $(TEX_SRC:.tex=.md)   # Markdown output file
 
 all: pdf md                   # Build both PDF and Markdown
 
-pdf:                          # Generate PDF from LaTeX
+gen:                          # Generate main.tex from Bank1 using Python script
+	python3 generate_main.py
+
+pdf: gen                      # Generate PDF from LaTeX (after generating main.tex)
 	pdflatex -interaction=nonstopmode $(TEX_SRC)
 
-md:                           # Generate Markdown from LaTeX
+md: gen                       # Generate Markdown from LaTeX (after generating main.tex)
 	pandoc $(TEX_SRC) -o $(MD_OUT)
 
 clean:                        # Remove generated files
