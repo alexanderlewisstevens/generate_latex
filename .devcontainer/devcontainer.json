@@ -13,9 +13,9 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "iamhyc.overleaf-workshop",
-                "oijaz.unicode-latex",
-                "cloudlatex.cloudlatex"
+                "james-yu.latex-workshop",
+                "yzhang.markdown-all-in-one",
+                "ms-vscode.makefile-tools"
             ]
         }
     }
