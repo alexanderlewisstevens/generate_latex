@@ -27,4 +27,4 @@ md: gen                       # Generate Markdown from LaTeX (after generating m
 	pandoc $(TEX_SRC) -o $(MD_OUT)
 
 clean:                        # Remove generated files
-	rm -f *.aux *.log *.out *.pdf *.md
+	find . -type f \( -name '*.aux' -o -name '*.log' -o -name '*.out' -o -name '*.pdf' -o -name '*.md' -o -name '*.toc' -o -name '*.synctex.gz' -o -name 'random_quiz.tex' -o -name 'random_quiz_sol.tex' -o -name '*_all.tex' -o -name '*_all_solutions.tex' -o -name 'all_problems.tex' -o -name 'all_problems_sol.tex' -o -name 'main.tex' -o -name 'main_solutions.tex' \) -delete
