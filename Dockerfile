@@ -12,7 +12,7 @@ RUN apt-get update && \
         git \
         && rm -rf /var/lib/apt/lists/*
 
-# Copy only files needed for build (if you add more, add them here)
-COPY Makefile main.tex ./
+# Copy all project files into the image
+COPY . /workspace
 
 WORKDIR /workspace
