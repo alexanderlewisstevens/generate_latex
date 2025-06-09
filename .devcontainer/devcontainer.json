@@ -1,0 +1,22 @@
+{
+    "name": "LaTeX PDF & Markdown Generator",
+    "build": {
+        "dockerfile": "../Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "workspaceFolder": "/workspace",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "iamhyc.overleaf-workshop",
+                "oijaz.unicode-latex",
+                "cloudlatex.cloudlatex"
+            ]
+        }
+    }
+}
