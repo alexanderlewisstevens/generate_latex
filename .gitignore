@@ -5,3 +5,4 @@
 *.md
 *.toc
 *.synctex.gz
+.env

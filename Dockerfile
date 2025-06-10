@@ -15,4 +15,8 @@ RUN apt-get update && \
 # Copy all project files into the image
 COPY . /workspace
 
+# Ensure requirements.txt is copied and install Python dependencies
+COPY requirements.txt /workspace/requirements.txt
+RUN pip install --no-cache-dir -r /workspace/requirements.txt
+
 WORKDIR /workspace
