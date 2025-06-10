@@ -1,5 +1,6 @@
 import os
 import random
+import sys
 
 # === CONFIGURABLE CONSTANTS ===
 SRC_ROOT = "src"
@@ -76,27 +77,76 @@ def write_tex(filename, template, questions, title, author, date, margin, direct
     with open(filename, "w") as f:
         f.write(tex_content)
 
+def check_generated_files():
+    """Check that all expected .tex files exist and are non-empty."""
+    success = True
+    missing = []
+    empty = []
+    # Per-bank files
+    for bank_dir in BANK_DIRS:
+        build_bank_dir = os.path.join(BUILD_ROOT, os.path.relpath(bank_dir, SRC_ROOT))
+        for suffix in ["_all.tex", "_all_solutions.tex"]:
+            fname = os.path.join(build_bank_dir, os.path.basename(bank_dir) + suffix)
+            if not os.path.exists(fname):
+                missing.append(fname)
+                success = False
+            elif os.path.getsize(fname) == 0:
+                empty.append(fname)
+                success = False
+    # Combined files
+    for fname in [os.path.join(BUILD_ROOT, "all_problems.tex"), os.path.join(BUILD_ROOT, "all_problems_sol.tex")]:
+        if not os.path.exists(fname):
+            missing.append(fname)
+            success = False
+        elif os.path.getsize(fname) == 0:
+            empty.append(fname)
+            success = False
+    return success, missing, empty
+
 def main():
     # Per-bank generation
     for bank_dir in BANK_DIRS:
         files = get_problem_files(bank_dir)
         if not files:
             continue
-        # Use only the filename for \input in per-bank .tex files
-        questions = "\n\\vfill\n".join([f"    \\input{{{os.path.basename(fname)}}}" for fname in files]) + "\n\\vfill\n"
-        sol_questions = "\n".join([f"    \\input{{{os.path.basename(fname)}}}" for fname in files])
         build_bank_dir = os.path.join(BUILD_ROOT, os.path.relpath(bank_dir, SRC_ROOT))
+        # Use correct relative path for \input in per-bank .tex files
+        questions = "\n\\vfill\n".join([
+            f"    \\input{{{os.path.relpath(fname, build_bank_dir)}}}" for fname in files
+        ]) + "\n\\vfill\n"
+        sol_questions = "\n".join([
+            f"    \\input{{{os.path.relpath(fname, build_bank_dir)}}}" for fname in files
+        ])
         write_tex(f"{os.path.basename(bank_dir)}_all.tex", EXAM_TEMPLATE, questions, f"{os.path.basename(bank_dir)} Problems", AUTHOR, DATE, MARGIN, directory=build_bank_dir)
         write_tex(f"{os.path.basename(bank_dir)}_all_solutions.tex", SOL_TEMPLATE, sol_questions, f"{os.path.basename(bank_dir)} Problems with Solutions", AUTHOR, DATE, MARGIN, directory=build_bank_dir)
     # All banks combined
     all_files = []
     for bank_dir in BANK_DIRS:
         all_files.extend(get_problem_files(bank_dir))
-    all_questions = "\n\\vfill\n".join([f"    \\input{{{os.path.dirname(fname)}/{os.path.basename(fname)}}}" for fname in all_files]) + "\n\\vfill\n"
-    all_sol_questions = "\n".join([f"    \\input{{{os.path.dirname(fname)}/{os.path.basename(fname)}}}" for fname in all_files])
+    # Use correct relative path for \input in combined .tex files
+    build_dir = BUILD_ROOT
+    all_questions = "\n\\vfill\n".join([
+        f"    \\input{{{os.path.relpath(fname, build_dir)}}}" for fname in all_files
+    ]) + "\n\\vfill\n"
+    all_sol_questions = "\n".join([
+        f"    \\input{{{os.path.relpath(fname, build_dir)}}}" for fname in all_files
+    ])
     write_tex(os.path.join(BUILD_ROOT, "all_problems.tex"), EXAM_TEMPLATE, all_questions, ALL_TITLE, AUTHOR, DATE, MARGIN)
     write_tex(os.path.join(BUILD_ROOT, "all_problems_sol.tex"), SOL_TEMPLATE, all_sol_questions, ALL_SOL_TITLE, AUTHOR, DATE, MARGIN)
     print("Generated .tex files for each bank (in build/) and for all problems (in build/).")
+
+    # If --test flag is present, run checks
+    if "--test" in sys.argv:
+        success, missing, empty = check_generated_files()
+        if success:
+            print("[TEST] All expected .tex files exist and are non-empty.")
+            sys.exit(0)
+        else:
+            if missing:
+                print("[TEST] Missing files:", *missing, sep="\n  ")
+            if empty:
+                print("[TEST] Empty files:", *empty, sep="\n  ")
+            sys.exit(1)
 
 if __name__ == "__main__":
     main()
