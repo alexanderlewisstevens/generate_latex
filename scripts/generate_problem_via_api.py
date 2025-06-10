@@ -8,7 +8,13 @@ API_KEY = os.getenv("MY_API_KEY")
 if not API_KEY:
     raise RuntimeError("MY_API_KEY not set. Please set it in your .env file or environment.")
 
-# Example: Use OpenAI API to generate a LaTeX problem (replace with your API endpoint as needed)
+def get_context_text():
+    context_path = os.path.join(os.path.dirname(__file__), '../context')
+    if os.path.isfile(context_path):
+        with open(context_path, 'r', encoding='utf-8') as f:
+            return f.read().strip()
+    return ''
+
 def extract_question_and_solution(latex_content):
     # Try to split the content into question and solution parts
     # Look for 'Solution:' or similar as a separator
@@ -26,6 +32,20 @@ def extract_question_and_solution(latex_content):
     return question, solution
 
 def generate_problem(prompt, bank_dir, problem_number):
+    context_text = get_context_text()
+    format_instruction = (
+        "\n\n---\n"
+        "The output MUST be a single LaTeX exam problem for the exam class, with this format (no point allocation):\n"
+        "\\question <the question text>\n\\begin{solution}\n<the solution>\n\\end{solution}\n"
+        "Do not include any LaTeX preamble, documentclass, or extra environments. Only output the question and solution as shown."
+    )
+    if context_text:
+        prompt = (
+            f"[CONTEXT: The following is background for the audience and expectations of the questions and answers.]\n{context_text}\n\n"
+            f"[PROMPT]: {prompt}{format_instruction}"
+        )
+    else:
+        prompt = f"{prompt}{format_instruction}"
     headers = {"Authorization": f"Bearer {API_KEY}"}
     data = {
         "model": "gpt-3.5-turbo-instruct",
@@ -43,14 +63,23 @@ def generate_problem(prompt, bank_dir, problem_number):
         return False
     # Extract question and solution
     question, solution = extract_question_and_solution(latex_content)
-    # Remove any point allocation like [10] from the start of the question
     import re
+    # Remove any point allocation like [10] from the start of the question
     if question.startswith('\\question'):
-        # Remove [number] after \question (e.g., \question[10])
         question = re.sub(r'^\\question\s*\[[^\]]*\]', r'\\question', question)
-    formatted = f"% Example problem {problem_number}\n"
+    # Force question to start with \question and solution to be wrapped in solution env
+    question = question.strip()
     if not question.startswith('\\question'):
-        formatted += "\\question "
+        question = '\\question ' + question
+    # Remove any content before \question
+    question = re.sub(r'.*?(\\question)', r'\1', question, flags=re.DOTALL)
+    # Remove any content after \end{solution} in solution
+    solution = solution.strip()
+    solution = re.sub(r'(.*?)(\\end{solution}.*)', r'\1', solution, flags=re.DOTALL)
+    # Remove any nested solution environments
+    solution = re.sub(r'\\begin{solution}', '', solution)
+    solution = re.sub(r'\\end{solution}', '', solution)
+    formatted = f"% Example problem {problem_number}\n"
     formatted += question.strip() + "\n"
     formatted += "\\begin{solution}\n" + solution.strip() + "\n\\end{solution}\n"
     formatted = formatted.strip() + "\n"
@@ -70,6 +99,13 @@ def generate_prompts_for_folder(folder_path):
     import glob
     import re
     BANKS = ["Bank1", "Bank2"]
+    context_text = get_context_text()
+    format_instruction = (
+        "\n\n---\n"
+        "When you generate prompts, remember that each will be used to create a LaTeX exam problem for the exam class, with this format (no point allocation):\n"
+        "\\question <the question text>\n\\begin{solution}\n<the solution>\n\\end{solution}\n"
+        "Do not include any LaTeX preamble, documentclass, or extra environments. Only output the question and solution as shown."
+    )
     files = sorted([f for f in glob.glob(os.path.join(folder_path, '*')) if os.path.isfile(f)])
     for file_path in files:
         print(f"\n=== {os.path.basename(file_path)} ===")
@@ -97,8 +133,9 @@ def generate_prompts_for_folder(folder_path):
         bank = BANKS[bank_choice - 1]
         bank_dir = os.path.join("src/banks", bank)
         prompt = (
-            f"Given the following section of text, generate a numbered list of {n} distinct, high-quality LaTeX exam problem prompts (not full problems, just prompts) inspired by the content. "
-            f"Do NOT include solutions or LaTeX markup, just the prompts.\n\nSection:\n{section_content}\n\nList of {n} distinct problem prompts:"
+            f"[CONTEXT: The following is background for the audience and expectations of the questions and answers.]\n{context_text}\n\n"
+            f"[PROMPT]: Given the following section of text, generate a numbered list of {n} distinct, high-quality LaTeX exam problem prompts (not full problems, just prompts) inspired by the content. "
+            f"Do NOT include solutions or LaTeX markup, just the prompts.\n\nSection:\n{section_content}\n\nList of {n} distinct problem prompts:{format_instruction}"
         )
         headers = {"Authorization": f"Bearer {API_KEY}"}
         data = {
