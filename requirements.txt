@@ -2,3 +2,5 @@ python-dotenv
 requests
 PyPDF2
 pytest
+fitz
+pymupdf
