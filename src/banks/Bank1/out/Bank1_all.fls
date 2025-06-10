@@ -1,9 +1,9 @@
-PWD /workspace/Bank1
+PWD /workspace/src/banks/Bank1
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /workspace/Bank1/Bank1_all.tex
+INPUT /workspace/src/banks/Bank1/Bank1_all.tex
 OUTPUT out/Bank1_all.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
