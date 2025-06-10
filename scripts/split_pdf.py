@@ -70,6 +70,9 @@ def generate_index(reader, output_dir):
     total_pages = len(reader.pages)
     all_pages = list(range(1, total_pages + 1))
     index['__all_pages__'] = all_pages
+    # NOTE: When processing split pages, ensure downstream GPT prompts include:
+    # "Preserve all LaTeX-style math as inline (`$...$`) or block (`$$...$$`) where applicable.
+    # Do not convert math to plain text. Reconstruct equations using standard LaTeX notation."
     with open(os.path.join(output_dir, "index.txt"), "w", encoding="utf-8") as f:
         json.dump(index, f, indent=2)
     return index
