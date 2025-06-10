@@ -1,0 +1,1627 @@
+[
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.5_Applications_of_Congruences.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.3_Logic_Gates.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.3_Logic_Gates.md",
+    "type": "missing_image",
+    "message": "Image file not found: attachment/path/to/figure9.png"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.3_Logic_Gates.md",
+    "type": "missing_image",
+    "message": "Image file not found: attachment/path/to/figure10.png"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.3_Logic_Gates.md",
+    "type": "table_column_mismatch",
+    "message": "Table rows have inconsistent number of columns."
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.4_Minimization_of_Circuits.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.4_Minimization_of_Circuits.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.4_Minimization_of_Circuits.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0851_img1.png"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.4_Minimization_of_Circuits.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0851_img2.png"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.4_Minimization_of_Circuits.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0858_img1.png"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.4_Minimization_of_Circuits.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0858_img2.png"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.4_Minimization_of_Circuits.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0860_img1.png"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.4_Minimization_of_Circuits.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0860_img2.png"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.4_Minimization_of_Circuits.md",
+    "type": "table_column_mismatch",
+    "message": "Table rows have inconsistent number of columns."
+  },
+  {
+    "file": "8_Advanced_Counting_Techniques_>_8.4_Generating_Functions.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.8_Proof_Methods_and_Strategy.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0118_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.8_Proof_Methods_and_Strategy.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0118_img2.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.8_Proof_Methods_and_Strategy.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0119_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.8_Proof_Methods_and_Strategy.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0119_img2.png"
+  },
+  {
+    "file": "3_Algorithms_>_3.1_Algorithms.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "3_Algorithms_>_3.1_Algorithms.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0213_img1.png"
+  },
+  {
+    "file": "3_Algorithms_>_3.1_Algorithms.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0213_img2.png"
+  },
+  {
+    "file": "11_Trees_>_11.5_Minimum_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/figure"
+  },
+  {
+    "file": "11_Trees_>_11.5_Minimum_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0819_img1.png"
+  },
+  {
+    "file": "11_Trees_>_11.5_Minimum_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0819_img2.png"
+  },
+  {
+    "file": "11_Trees_>_11.5_Minimum_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0821_img1.png"
+  },
+  {
+    "file": "11_Trees_>_11.5_Minimum_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0821_img2.png"
+  },
+  {
+    "file": "11_Trees_>_11.5_Minimum_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/figure.png"
+  },
+  {
+    "file": "Copyright_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0003_img1.jpeg"
+  },
+  {
+    "file": "Copyright_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0003_img2.jpeg"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.2_Finite-State_Machines_with_Output.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.2_Finite-State_Machines_with_Output.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.2_Finite-State_Machines_with_Output.md",
+    "type": "table_column_mismatch",
+    "message": "Table rows have inconsistent number of columns."
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_5.2_Strong_Induction_andWell-Ordering.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "9_Relations_>_9.1_Relations_and_Their_Properties.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "9_Relations_>_9.1_Relations_and_Their_Properties.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "9_Relations_>_9.1_Relations_and_Their_Properties.md",
+    "type": "missing_image",
+    "message": "Image file not found: example4_figure.png"
+  },
+  {
+    "file": "9_Relations_>_9.3_Representing_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: Figure3.png"
+  },
+  {
+    "file": "9_Relations_>_9.3_Representing_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "9_Relations_>_9.3_Representing_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "9_Relations_>_9.3_Representing_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "8_Advanced_Counting_Techniques_>_End-of-Chapter_Material.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "6_Counting_>_6.4_Binomial_Coefficients_and_Identities.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0440_img1.png"
+  },
+  {
+    "file": "6_Counting_>_6.4_Binomial_Coefficients_and_Identities.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0440_img2.png"
+  },
+  {
+    "file": "10_Graphs_>_10.4_Connectivity.md",
+    "type": "missing_image",
+    "message": "Image file not found: Figure1.png"
+  },
+  {
+    "file": "10_Graphs_>_10.4_Connectivity.md",
+    "type": "missing_image",
+    "message": "Image file not found: Figures/G1_G2"
+  },
+  {
+    "file": "10_Graphs_>_10.4_Connectivity.md",
+    "type": "missing_image",
+    "message": "Image file not found: Figures/H1_H2_H3"
+  },
+  {
+    "file": "10_Graphs_>_10.4_Connectivity.md",
+    "type": "missing_image",
+    "message": "Image file not found: image-url-placeholder"
+  },
+  {
+    "file": "10_Graphs_>_10.4_Connectivity.md",
+    "type": "missing_image",
+    "message": "Image file not found: fig6.png"
+  },
+  {
+    "file": "10_Graphs_>_10.4_Connectivity.md",
+    "type": "missing_image",
+    "message": "Image file not found: fig7.png"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_End-of-Chapter_Material.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "11_Trees_>_11.4_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: figure4.png"
+  },
+  {
+    "file": "11_Trees_>_11.4_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: fig:trees.png"
+  },
+  {
+    "file": "11_Trees_>_11.4_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: fig:tree-edges.png"
+  },
+  {
+    "file": "11_Trees_>_11.4_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: image-link-here"
+  },
+  {
+    "file": "11_Trees_>_11.4_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "11_Trees_>_11.4_Spanning_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.2_Representing_Boolean_Functions.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "6_Counting_>_6.6_Generating_Permutations_and_Combinations.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: image"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0716_img1.jpeg"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0716_img2.jpeg"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/figure6"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/figure.png"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0721_img1.png"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0721_img2.png"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0722_img1.png"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0722_img2.jpeg"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0722_img3.jpeg"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/image.jpg"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0727_img1.png"
+  },
+  {
+    "file": "10_Graphs_>_10.5_Euler_and_Hamilton_Paths.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0727_img2.png"
+  },
+  {
+    "file": "11_Trees_>_11.3_Tree_Traversal.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "11_Trees_>_11.3_Tree_Traversal.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "11_Trees_>_11.3_Tree_Traversal.md",
+    "type": "missing_image",
+    "message": "Image file not found: figure-7.png"
+  },
+  {
+    "file": "11_Trees_>_11.3_Tree_Traversal.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "11_Trees_>_11.3_Tree_Traversal.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "11_Trees_>_11.3_Tree_Traversal.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0803_img1.png"
+  },
+  {
+    "file": "11_Trees_>_11.3_Tree_Traversal.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0803_img2.png"
+  },
+  {
+    "file": "10_Graphs_>_10.8_Graph_Coloring.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "10_Graphs_>_10.8_Graph_Coloring.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0749_img1.png"
+  },
+  {
+    "file": "10_Graphs_>_10.8_Graph_Coloring.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0749_img2.png"
+  },
+  {
+    "file": "Suggested_Readings.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "Suggested_Readings.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.6_Cryptography.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0320_img1.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.6_Cryptography.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0320_img2.jpeg"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.6_Cryptography.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0321_img1.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.6_Cryptography.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0321_img2.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.6_Cryptography.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0321_img3.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.6_Cryptography.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0321_img4.png"
+  },
+  {
+    "file": "9_Relations_>_9.4_Closures_of_Relations.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "9_Relations_>_9.4_Closures_of_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "9_Relations_>_9.4_Closures_of_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0625_img1.png"
+  },
+  {
+    "file": "9_Relations_>_9.4_Closures_of_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0625_img2.png"
+  },
+  {
+    "file": "9_Relations_>_9.2_n-ary_Relations_and_Their_Applications.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.3_Bayes\u2019_Theorem.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.3_Bayes\u2019_Theorem.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0493_img1.jpeg"
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.3_Bayes\u2019_Theorem.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0493_img2.jpeg"
+  },
+  {
+    "file": "9_Relations_>_9.5_Equivalence_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/image"
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_5.3_Recursive_Definitions_and_Structural_Induction.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_5.3_Recursive_Definitions_and_Structural_Induction.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0369_img1.jpeg"
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_5.3_Recursive_Definitions_and_Structural_Induction.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0369_img2.jpeg"
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_5.3_Recursive_Definitions_and_Structural_Induction.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0370_img1.jpeg"
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_5.3_Recursive_Definitions_and_Structural_Induction.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0370_img2.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img1.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img2.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img3.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img4.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img5.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img6.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img7.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img8.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img9.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img10.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img11.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img12.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img13.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img14.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0001_img15.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0002_img1.jpeg"
+  },
+  {
+    "file": "Cover_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0002_img2.jpeg"
+  },
+  {
+    "file": "3_Algorithms_>_3.3_Complexity_of_Algorithms.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "3_Algorithms_>_3.3_Complexity_of_Algorithms.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0248_img1.png"
+  },
+  {
+    "file": "3_Algorithms_>_3.3_Complexity_of_Algorithms.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0248_img2.jpeg"
+  },
+  {
+    "file": "3_Algorithms_>_3.3_Complexity_of_Algorithms.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0248_img3.jpeg"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.3_Primes_and_Greatest_Common_Divisors.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.3_Primes_and_Greatest_Common_Divisors.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0280_img1.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.3_Primes_and_Greatest_Common_Divisors.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0280_img2.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.3_Primes_and_Greatest_Common_Divisors.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0282_img1.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.3_Primes_and_Greatest_Common_Divisors.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0282_img2.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.3_Primes_and_Greatest_Common_Divisors.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0284_img1.jpeg"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.3_Primes_and_Greatest_Common_Divisors.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0284_img2.jpeg"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.3_Primes_and_Greatest_Common_Divisors.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0288_img1.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.3_Primes_and_Greatest_Common_Divisors.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0288_img2.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.3_Primes_and_Greatest_Common_Divisors.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0290_img1.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.3_Primes_and_Greatest_Common_Divisors.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0290_img2.jpeg"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.4_Language_Recognition.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.4_Language_Recognition.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.4_Language_Recognition.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.4_Language_Recognition.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0907_img1.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.4_Language_Recognition.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0907_img2.png"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.1_Boolean_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0833_img1.png"
+  },
+  {
+    "file": "12_Boolean_Algebra_>_12.1_Boolean_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0833_img2.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_End-of-Chapter_Material.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.2_Applications_of_Propositional_Logic.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.2_Applications_of_Propositional_Logic.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0041_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.2_Applications_of_Propositional_Logic.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0041_img2.png"
+  },
+  {
+    "file": "Title_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0002_img1.jpeg"
+  },
+  {
+    "file": "Title_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0002_img2.jpeg"
+  },
+  {
+    "file": "Title_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0003_img1.jpeg"
+  },
+  {
+    "file": "Title_Page.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0003_img2.jpeg"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.1_Sets.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0138_img1.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.1_Sets.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0140_img1.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.1_Sets.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0141_img1.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.1_Sets.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0143_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.6_Rules_of_Inference.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "9_Relations_>_End-of-Chapter_Material.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0657_img1.png"
+  },
+  {
+    "file": "9_Relations_>_End-of-Chapter_Material.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0657_img2.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.3_Finite-State_Machines_with_No_Output.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.3_Finite-State_Machines_with_No_Output.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0888_img1.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.3_Finite-State_Machines_with_No_Output.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0888_img2.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.3_Finite-State_Machines_with_No_Output.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0893_img1.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.3_Finite-State_Machines_with_No_Output.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0893_img2.png"
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.2_Probability_Theory.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0480_img1.jpeg"
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.2_Probability_Theory.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0480_img2.jpeg"
+  },
+  {
+    "file": "10_Graphs_>_End-of-Chapter_Material.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "10_Graphs_>_End-of-Chapter_Material.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_End-of-Chapter_Material.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_End-of-Chapter_Material.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0402_img1.jpeg"
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_End-of-Chapter_Material.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0402_img2.jpeg"
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_5.4_Recursive_Algorithms.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.7_Introduction_to_Proofs.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "Contents.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "10_Graphs_>_10.7_Planar_Graphs.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "10_Graphs_>_10.7_Planar_Graphs.md",
+    "type": "missing_image",
+    "message": "Image file not found: attachments/figure-8-regions.png"
+  },
+  {
+    "file": "10_Graphs_>_10.7_Planar_Graphs.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0744_img1.png"
+  },
+  {
+    "file": "10_Graphs_>_10.7_Planar_Graphs.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0744_img2.png"
+  },
+  {
+    "file": "10_Graphs_>_10.7_Planar_Graphs.md",
+    "type": "missing_image",
+    "message": "Image file not found: image_placeholder.png"
+  },
+  {
+    "file": "10_Graphs_>_10.2_Graph_Terminology_and_Special_Types_of_Graphs.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "10_Graphs_>_10.2_Graph_Terminology_and_Special_Types_of_Graphs.md",
+    "type": "missing_image",
+    "message": "Image file not found: image-link"
+  },
+  {
+    "file": "10_Graphs_>_10.2_Graph_Terminology_and_Special_Types_of_Graphs.md",
+    "type": "missing_image",
+    "message": "Image file not found: figure2.jpg"
+  },
+  {
+    "file": "10_Graphs_>_10.2_Graph_Terminology_and_Special_Types_of_Graphs.md",
+    "type": "missing_image",
+    "message": "Image file not found: path_to_figure7_image"
+  },
+  {
+    "file": "10_Graphs_>_10.2_Graph_Terminology_and_Special_Types_of_Graphs.md",
+    "type": "missing_image",
+    "message": "Image file not found: path_to_figure8_image"
+  },
+  {
+    "file": "10_Graphs_>_10.2_Graph_Terminology_and_Special_Types_of_Graphs.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0681_img1.png"
+  },
+  {
+    "file": "10_Graphs_>_10.2_Graph_Terminology_and_Special_Types_of_Graphs.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0681_img2.jpeg"
+  },
+  {
+    "file": "10_Graphs_>_10.2_Graph_Terminology_and_Special_Types_of_Graphs.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "Appendixes_>_3_Pseudocode.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "Appendixes_>_3_Pseudocode.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.1_Divisibility_and_Modular_Arithmetic.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.1_Divisibility_and_Modular_Arithmetic.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0262_img1.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.1_Divisibility_and_Modular_Arithmetic.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0262_img2.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.5_Cardinality_of_Sets.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.5_Cardinality_of_Sets.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0192_img1.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.5_Cardinality_of_Sets.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0192_img2.jpeg"
+  },
+  {
+    "file": "13_Modeling_Computation_>_End-of-Chapter_Material.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "10_Graphs_>_10.1_Graphs_and_Graph_Models.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "10_Graphs_>_10.1_Graphs_and_Graph_Models.md",
+    "type": "missing_image",
+    "message": "Image file not found: figure4.png"
+  },
+  {
+    "file": "10_Graphs_>_10.1_Graphs_and_Graph_Models.md",
+    "type": "missing_image",
+    "message": "Image file not found: figure5.png"
+  },
+  {
+    "file": "10_Graphs_>_10.1_Graphs_and_Graph_Models.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.1_Graphs_and_Graph_Models.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "6_Counting_>_6.1_The_Basics_of_Counting.md",
+    "type": "missing_image",
+    "message": "Image file not found: Figure 1"
+  },
+  {
+    "file": "11_Trees_>_11.2_Applications_of_Trees.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "11_Trees_>_11.2_Applications_of_Trees.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "11_Trees_>_11.2_Applications_of_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "11_Trees_>_11.2_Applications_of_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0784_img1.png"
+  },
+  {
+    "file": "11_Trees_>_11.2_Applications_of_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0784_img2.png"
+  },
+  {
+    "file": "11_Trees_>_11.2_Applications_of_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/figure"
+  },
+  {
+    "file": "10_Graphs_>_10.6_Shortest-Path_Problems.md",
+    "type": "missing_image",
+    "message": "Image file not found: link_to_image_if_available"
+  },
+  {
+    "file": "10_Graphs_>_10.6_Shortest-Path_Problems.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0731_img1.png"
+  },
+  {
+    "file": "10_Graphs_>_10.6_Shortest-Path_Problems.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0731_img2.png"
+  },
+  {
+    "file": "10_Graphs_>_10.6_Shortest-Path_Problems.md",
+    "type": "missing_image",
+    "message": "Image file not found: image_url_here"
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_5.1_Mathematical_Induction.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "Appendixes_>_1_Axioms_for_the_Real_Numbers_and_the_Positive_Integers.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0929_img1.png"
+  },
+  {
+    "file": "Appendixes_>_1_Axioms_for_the_Real_Numbers_and_the_Positive_Integers.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0929_img2.png"
+  },
+  {
+    "file": "Appendixes_>_2_Exponential_and_Logarithmic_Functions.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "Appendixes_>_2_Exponential_and_Logarithmic_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.3_Propositional_Equivalences.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0050_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.3_Propositional_Equivalences.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0050_img2.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.3_Propositional_Equivalences.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0052_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.3_Propositional_Equivalences.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0052_img2.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.3_Propositional_Equivalences.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0055_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.3_Propositional_Equivalences.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0055_img2.png"
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_5.5_Program_Correctness.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_5.5_Program_Correctness.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0395_img1.jpeg"
+  },
+  {
+    "file": "5_Induction_and_Recursion_>_5.5_Program_Correctness.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0395_img2.jpeg"
+  },
+  {
+    "file": "About_the_Author.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "Preface.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "7_Discrete_Probability_>_End-of-Chapter_Material.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.3_Functions.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.3_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: filename.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.3_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: figure.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.3_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: composition_of_functions.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.3_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/image"
+  },
+  {
+    "file": "3_Algorithms_>_3.2_The_Growth_of_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: assets/figure1.svg"
+  },
+  {
+    "file": "3_Algorithms_>_3.2_The_Growth_of_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0228_img1.png"
+  },
+  {
+    "file": "3_Algorithms_>_3.2_The_Growth_of_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0228_img2.png"
+  },
+  {
+    "file": "3_Algorithms_>_3.2_The_Growth_of_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0228_img3.png"
+  },
+  {
+    "file": "3_Algorithms_>_3.2_The_Growth_of_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0229_img1.png"
+  },
+  {
+    "file": "3_Algorithms_>_3.2_The_Growth_of_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0229_img2.png"
+  },
+  {
+    "file": "3_Algorithms_>_3.2_The_Growth_of_Functions.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "6_Counting_>_6.3_Permutations_and_Combinations.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "10_Graphs_>_10.3_Representing_Graphs_and_Graph_Isomorphism.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "10_Graphs_>_10.3_Representing_Graphs_and_Graph_Isomorphism.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "10_Graphs_>_10.3_Representing_Graphs_and_Graph_Isomorphism.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "3_Algorithms_>_End-of-Chapter_Material.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.2_Set_Operations.md",
+    "type": "missing_image",
+    "message": "Image file not found: venn_difference.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.2_Set_Operations.md",
+    "type": "missing_image",
+    "message": "Image file not found: venn_complement.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.2_Set_Operations.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "9_Relations_>_9.6_Partial_Orderings.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "9_Relations_>_9.6_Partial_Orderings.md",
+    "type": "missing_image",
+    "message": "Image file not found: images/figure2.png"
+  },
+  {
+    "file": "9_Relations_>_9.6_Partial_Orderings.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0644_img1.png"
+  },
+  {
+    "file": "9_Relations_>_9.6_Partial_Orderings.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0644_img2.png"
+  },
+  {
+    "file": "9_Relations_>_9.6_Partial_Orderings.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/hasse-diagrams.png"
+  },
+  {
+    "file": "9_Relations_>_9.6_Partial_Orderings.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/hasse-diagram-fig7.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.4_Sequences_and_Summations.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0184_img1.png"
+  },
+  {
+    "file": "2_Basic_Structures:_Sets,_Functions,_Sequences,_Sums,_and_Matrices_>_2.4_Sequences_and_Summations.md",
+    "type": "table_column_mismatch",
+    "message": "Table rows have inconsistent number of columns."
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.1_Propositional_Logic.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.1_Propositional_Logic.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0023_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.1_Propositional_Logic.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0023_img2.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.1_Propositional_Logic.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0026_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.1_Propositional_Logic.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0026_img2.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.1_Propositional_Logic.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0032_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.1_Propositional_Logic.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0032_img2.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.4_Predicates_and_Quantifiers.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.4_Predicates_and_Quantifiers.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0059_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.4_Predicates_and_Quantifiers.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0059_img2.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.4_Predicates_and_Quantifiers.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0071_img1.png"
+  },
+  {
+    "file": "1_The_Foundations:_Logic_and_Proofs_>_1.4_Predicates_and_Quantifiers.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0071_img2.png"
+  },
+  {
+    "file": "Answers_to_Odd-Numbered_Exercises.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "Answers_to_Odd-Numbered_Exercises.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.1_An_Introduction_to_Discrete_Probability.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0467_img1.png"
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.1_An_Introduction_to_Discrete_Probability.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0467_img2.jpeg"
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.1_An_Introduction_to_Discrete_Probability.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0468_img1.jpeg"
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.1_An_Introduction_to_Discrete_Probability.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0468_img2.jpeg"
+  },
+  {
+    "file": "6_Counting_>_6.2_The_Pigeonhole_Principle.md",
+    "type": "missing_image",
+    "message": "Image file not found: Figure 1"
+  },
+  {
+    "file": "6_Counting_>_6.2_The_Pigeonhole_Principle.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0421_img1.png"
+  },
+  {
+    "file": "6_Counting_>_6.2_The_Pigeonhole_Principle.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0421_img2.png"
+  },
+  {
+    "file": "6_Counting_>_6.2_The_Pigeonhole_Principle.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0425_img1.png"
+  },
+  {
+    "file": "6_Counting_>_6.2_The_Pigeonhole_Principle.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0425_img2.png"
+  },
+  {
+    "file": "8_Advanced_Counting_Techniques_>_8.1_Applications_of_Recurrence_Relations.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "8_Advanced_Counting_Techniques_>_8.1_Applications_of_Recurrence_Relations.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "8_Advanced_Counting_Techniques_>_8.1_Applications_of_Recurrence_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: Fig-3"
+  },
+  {
+    "file": "8_Advanced_Counting_Techniques_>_8.1_Applications_of_Recurrence_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0528_img1.png"
+  },
+  {
+    "file": "8_Advanced_Counting_Techniques_>_8.1_Applications_of_Recurrence_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0528_img2.jpeg"
+  },
+  {
+    "file": "8_Advanced_Counting_Techniques_>_8.1_Applications_of_Recurrence_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0529_img1.png"
+  },
+  {
+    "file": "8_Advanced_Counting_Techniques_>_8.1_Applications_of_Recurrence_Relations.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0529_img2.jpeg"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.4_Solving_Congruences.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.4_Solving_Congruences.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0303_img1.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.4_Solving_Congruences.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0303_img2.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.4_Solving_Congruences.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0304_img1.png"
+  },
+  {
+    "file": "4_Number_Theory_and_Cryptography_>_4.4_Solving_Congruences.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0304_img2.jpeg"
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.4_Expected_Value_and_Variance.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0510_img1.jpeg"
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.4_Expected_Value_and_Variance.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0510_img2.jpeg"
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.4_Expected_Value_and_Variance.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0511_img1.jpeg"
+  },
+  {
+    "file": "7_Discrete_Probability_>_7.4_Expected_Value_and_Variance.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0511_img2.jpeg"
+  },
+  {
+    "file": "11_Trees_>_11.1_Introduction_to_Trees.md",
+    "type": "unclosed_yaml",
+    "message": "Odd number of YAML frontmatter delimiters (---), possible unclosed YAML."
+  },
+  {
+    "file": "11_Trees_>_11.1_Introduction_to_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/figure2"
+  },
+  {
+    "file": "11_Trees_>_11.1_Introduction_to_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: path/to/figure3"
+  },
+  {
+    "file": "11_Trees_>_11.1_Introduction_to_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: visual-representation-of-tree.png"
+  },
+  {
+    "file": "11_Trees_>_11.1_Introduction_to_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0771_img1.png"
+  },
+  {
+    "file": "11_Trees_>_11.1_Introduction_to_Trees.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0771_img2.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.1_Languages_and_Grammars.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.1_Languages_and_Grammars.md",
+    "type": "missing_image",
+    "message": "Image file not found: FIGURE 1 A Derivation Tree"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.1_Languages_and_Grammars.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0874_img1.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.1_Languages_and_Grammars.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0874_img2.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.1_Languages_and_Grammars.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0875_img1.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.1_Languages_and_Grammars.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0875_img2.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.1_Languages_and_Grammars.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0875_img3.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.5_Turing_Machines.md",
+    "type": "unclosed_code_block",
+    "message": "Odd number of triple backticks (```), possible unclosed code block."
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.5_Turing_Machines.md",
+    "type": "missing_image",
+    "message": "Image file not found: #"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.5_Turing_Machines.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0918_img1.png"
+  },
+  {
+    "file": "13_Modeling_Computation_>_13.5_Turing_Machines.md",
+    "type": "missing_image",
+    "message": "Image file not found: page_0918_img2.png"
+  }
+]

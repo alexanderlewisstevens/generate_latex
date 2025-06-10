@@ -10,6 +10,7 @@ RUN apt-get update && \
         python3 \
         python3-pip \
         git \
+        build-essential \
         && rm -rf /var/lib/apt/lists/*
 
 # Copy all project files into the image

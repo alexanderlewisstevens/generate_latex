@@ -92,6 +92,10 @@ def main():
     for idx, pdf_file in enumerate(pdf_files):
         page_num = idx + 1
         pdf_path = os.path.join(pdf_folder, pdf_file)
+        md_file = os.path.join(output_folder, os.path.splitext(pdf_file)[0] + ".md")
+        if os.path.exists(md_file):
+            print(f"  [SKIP] {md_file} already exists, skipping.")
+            continue
         print(f"Processing {pdf_file} ...")
         text = pdf_page_to_text(pdf_path)
         if not text.strip():
@@ -101,9 +105,6 @@ def main():
         if not md.strip():
             print("  (No markdown returned, skipping)")
             continue
-        md_file = os.path.join(output_folder, os.path.splitext(pdf_file)[0] + ".md")
-        if os.path.exists(md_file):
-            print(f"  [INFO] Overwriting {md_file}")
         with open(md_file, "w", encoding="utf-8") as f:
             f.write(md)
         print(f"  -> {md_file}")

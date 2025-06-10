@@ -7,9 +7,6 @@
         "terminal.integrated.shell.linux": "/bin/bash"
     },
     "workspaceFolder": "/workspace",
-    "mounts": [
-        "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
-    ],
     "customizations": {
         "vscode": {
             "extensions": [
