@@ -29,11 +29,15 @@ def generate_problem(prompt, bank_dir, problem_number):
     headers = {"Authorization": f"Bearer {API_KEY}"}
     data = {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "model": "gpt-3.5-turbo-instruct",
         "prompt": prompt,
         "max_tokens": 500
 =======
         "model": "gpt-3.5-turbo-instruct",  # REQUIRED for OpenAI API
+=======
+        "model": "gpt-3.5-turbo-instruct",
+>>>>>>> 60ee9e1 (Add problem101.tex and update LaTeX files to include new problem; refactor API script to extract question and solution)
         "prompt": prompt,
         "max_tokens": 150
 >>>>>>> 820f8e7 (Update API call in generate_problem_via_api.py to include model specification; add problem99.tex with quadratic equation problem and solution.)
