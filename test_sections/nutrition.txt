@@ -1,1 +1,4 @@
-Beans are considered a superfood due to their high nutritional value. They provide essential amino acids, complex carbohydrates, and antioxidants, making them a staple in many healthy diets.
+# A new nutrition section for testing batch prompt generation
+Many video games incorporate nutrition and resource management as gameplay elements. For example, survival games often require players to monitor their character's hunger and thirst, gather food, and cook meals to maintain health and stamina. Some games use food items to provide temporary buffs or restore energy.
+
+Game designers sometimes research real-world nutrition to create believable in-game food systems, balancing realism with fun and challenge for players.

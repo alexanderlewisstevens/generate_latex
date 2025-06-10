@@ -1,1 +1,4 @@
-Beans are a rich source of protein, fiber, and various vitamins and minerals. They play a crucial role in plant-based diets and are important for soil health due to their nitrogen-fixing properties.
+# A new biology section for testing batch prompt generation
+Video games often simulate biological processes to create immersive environments. For example, some games feature ecosystems where plants and animals interact, and players must understand food chains or resource cycles to succeed. Other games use health and stamina systems that mimic real-life biological needs, requiring players to manage hunger, fatigue, or disease.
+
+Game developers sometimes consult with biologists to design realistic creatures or to ensure that in-game evolution and adaptation mechanics reflect real-world biology principles.

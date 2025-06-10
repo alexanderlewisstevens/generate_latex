@@ -1,9 +1,9 @@
-PWD /workspace/Bank2
+PWD /workspace/src/banks/Bank2
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /workspace/Bank2/random_quiz_sol.tex
+INPUT /workspace/src/banks/Bank2/random_quiz_sol.tex
 OUTPUT out/random_quiz_sol.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/exam/exam.cls

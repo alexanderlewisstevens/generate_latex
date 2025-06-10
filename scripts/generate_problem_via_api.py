@@ -173,18 +173,9 @@ def generate_prompts_for_folder(folder_path):
                 print("Skipped.")
 
 def main():
-    if len(sys.argv) >= 3 and sys.argv[1] == '--batch-prompts':
-        folder = sys.argv[2]
-        generate_prompts_for_folder(folder)
-        return
-    if len(sys.argv) < 4:
-        print("Usage: python3 scripts/generate_problem_with_api.py <Bank1|Bank2> <problem_number> <prompt>")
-        sys.exit(1)
-    bank = sys.argv[1]
-    problem_number = sys.argv[2]
-    prompt = sys.argv[3]
-    bank_dir = os.path.join("src/banks", bank)
-    generate_problem(prompt, bank_dir, problem_number)
+    # Always run batch prompt generation for a folder (default: test_sections)
+    folder = sys.argv[1] if len(sys.argv) > 1 else "test_sections"
+    generate_prompts_for_folder(folder)
 
 if __name__ == "__main__":
     main()
