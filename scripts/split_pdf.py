@@ -46,34 +46,39 @@ def extract_outline(reader):
         outline = []
     return walk(outline)
 
-def flatten_outline(outline):
-    # Returns a dict: {section_title: [page_numbers]}
-    result = {}
+def flatten_outline_ranges(outline):
+    # Returns a list of (section_title, start_page) in order
+    result = []
     def walk(node, path):
         title = node['title']
         page = node['page']
         key = ' > '.join(path + [title])
         if page is not None:
-            result.setdefault(key, []).append(page)
+            result.append((key, page))
         for child in node.get('children', []):
             walk(child, path + [title])
     for node in outline:
         walk(node, [])
-    return result
+    return sorted(result, key=lambda x: x[1])
 
 def generate_index(reader, output_dir):
+    os.makedirs(output_dir, exist_ok=True)  # Ensure output_dir exists
     outline = extract_outline(reader)
-    flat = flatten_outline(outline)
-    # For each section, also include the sorted list of unique pages (for reverse lookup)
-    index = {k: sorted(set(v)) for k, v in flat.items()}
-    # Add a special key for all pages
+    section_ranges = flatten_outline_ranges(outline)
     total_pages = len(reader.pages)
+    index = {}
+    # For each section, include all pages from its start to the next section's start-1 (inclusive)
+    for i, (title, start_page) in enumerate(section_ranges):
+        start = start_page
+        end = section_ranges[i+1][1] - 1 if i+1 < len(section_ranges) else total_pages
+        index[title] = list(range(start, end+1))
+    # Add a special key for all pages
     all_pages = list(range(1, total_pages + 1))
     index['__all_pages__'] = all_pages
     # NOTE: When processing split pages, ensure downstream GPT prompts include:
     # "Preserve all LaTeX-style math as inline (`$...$`) or block (`$$...$$`) where applicable.
     # Do not convert math to plain text. Reconstruct equations using standard LaTeX notation."
-    with open(os.path.join(output_dir, "index.txt"), "w", encoding="utf-8") as f:
+    with open(os.path.join(output_dir, "index.json"), "w", encoding="utf-8") as f:
         json.dump(index, f, indent=2)
     return index
 
@@ -86,7 +91,7 @@ def main():
     reader = PdfReader(input_pdf)
     split_pdf(input_pdf, output_dir)
     generate_index(reader, output_dir)
-    print(f"Split complete. Output in {output_dir}/. Index written to index.txt.")
+    print(f"Split complete. Output in {output_dir}/. Index written to index.json.")
 
 if __name__ == "__main__":
     main()
