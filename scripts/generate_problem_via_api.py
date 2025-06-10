@@ -30,7 +30,7 @@ def generate_problem(prompt, bank_dir, problem_number):
     data = {
         "model": "gpt-3.5-turbo-instruct",
         "prompt": prompt,
-        "max_tokens": 150
+        "max_tokens": 500
     }
     response = requests.post("https://api.openai.com/v1/completions", headers=headers, json=data)
     if response.status_code != 200:
