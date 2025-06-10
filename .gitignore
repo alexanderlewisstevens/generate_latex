@@ -6,3 +6,5 @@
 *.toc
 *.synctex.gz
 .env
+# Ignore output folders from split_pdf.py
+*_pages/

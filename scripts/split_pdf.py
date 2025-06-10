@@ -61,6 +61,19 @@ def flatten_outline(outline):
         walk(node, [])
     return result
 
+def generate_index(reader, output_dir):
+    outline = extract_outline(reader)
+    flat = flatten_outline(outline)
+    # For each section, also include the sorted list of unique pages (for reverse lookup)
+    index = {k: sorted(set(v)) for k, v in flat.items()}
+    # Add a special key for all pages
+    total_pages = len(reader.pages)
+    all_pages = list(range(1, total_pages + 1))
+    index['__all_pages__'] = all_pages
+    with open(os.path.join(output_dir, "index.txt"), "w", encoding="utf-8") as f:
+        json.dump(index, f, indent=2)
+    return index
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python3 split_pdf.py <input.pdf> [output_dir]")
@@ -69,12 +82,7 @@ def main():
     output_dir = sys.argv[2] if len(sys.argv) > 2 else Path(input_pdf).stem + "_pages"
     reader = PdfReader(input_pdf)
     split_pdf(input_pdf, output_dir)
-    outline = extract_outline(reader)
-    flat = flatten_outline(outline)
-    # For each section, also include the sorted list of unique pages (for reverse lookup)
-    index = {k: sorted(set(v)) for k, v in flat.items()}
-    with open(os.path.join(output_dir, "index.txt"), "w", encoding="utf-8") as f:
-        json.dump(index, f, indent=2)
+    generate_index(reader, output_dir)
     print(f"Split complete. Output in {output_dir}/. Index written to index.txt.")
 
 if __name__ == "__main__":
