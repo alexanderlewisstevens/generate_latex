@@ -15,7 +15,8 @@
             "extensions": [
                 "james-yu.latex-workshop",
                 "yzhang.markdown-all-in-one",
-                "ms-vscode.makefile-tools"
+                "ms-vscode.makefile-tools",
+                "ms-python.python"
             ]
         }
     }
