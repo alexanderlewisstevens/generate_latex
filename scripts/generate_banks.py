@@ -2,7 +2,10 @@ import os
 import random
 
 # === CONFIGURABLE CONSTANTS ===
-BANK_DIRS = ["Bank1", "Bank2"]  # List of problem bank directories
+SRC_ROOT = "src"
+BUILD_ROOT = "build"
+BANKS_ROOT = os.path.join(SRC_ROOT, "banks")
+BANK_DIRS = [os.path.join(BANKS_ROOT, "Bank1"), os.path.join(BANKS_ROOT, "Bank2")]
 PROBLEM_PREFIX = "problem"
 PROBLEM_SUFFIX = ".tex"
 EXAM_TITLE = "Sample Exam"
@@ -82,17 +85,18 @@ def main():
         # Use only the filename for \input in per-bank .tex files
         questions = "\n\\vfill\n".join([f"    \\input{{{os.path.basename(fname)}}}" for fname in files]) + "\n\\vfill\n"
         sol_questions = "\n".join([f"    \\input{{{os.path.basename(fname)}}}" for fname in files])
-        write_tex(f"{bank_dir}_all.tex", EXAM_TEMPLATE, questions, f"{bank_dir} Problems", AUTHOR, DATE, MARGIN, directory=bank_dir)
-        write_tex(f"{bank_dir}_all_solutions.tex", SOL_TEMPLATE, sol_questions, f"{bank_dir} Problems with Solutions", AUTHOR, DATE, MARGIN, directory=bank_dir)
+        build_bank_dir = os.path.join(BUILD_ROOT, os.path.relpath(bank_dir, SRC_ROOT))
+        write_tex(f"{os.path.basename(bank_dir)}_all.tex", EXAM_TEMPLATE, questions, f"{os.path.basename(bank_dir)} Problems", AUTHOR, DATE, MARGIN, directory=build_bank_dir)
+        write_tex(f"{os.path.basename(bank_dir)}_all_solutions.tex", SOL_TEMPLATE, sol_questions, f"{os.path.basename(bank_dir)} Problems with Solutions", AUTHOR, DATE, MARGIN, directory=build_bank_dir)
     # All banks combined
     all_files = []
     for bank_dir in BANK_DIRS:
         all_files.extend(get_problem_files(bank_dir))
     all_questions = "\n\\vfill\n".join([f"    \\input{{{os.path.dirname(fname)}/{os.path.basename(fname)}}}" for fname in all_files]) + "\n\\vfill\n"
     all_sol_questions = "\n".join([f"    \\input{{{os.path.dirname(fname)}/{os.path.basename(fname)}}}" for fname in all_files])
-    write_tex("all_problems.tex", EXAM_TEMPLATE, all_questions, ALL_TITLE, AUTHOR, DATE, MARGIN)
-    write_tex("all_problems_sol.tex", SOL_TEMPLATE, all_sol_questions, ALL_SOL_TITLE, AUTHOR, DATE, MARGIN)
-    print("Generated .tex files for each bank (in their directory) and for all problems (in root).")
+    write_tex(os.path.join(BUILD_ROOT, "all_problems.tex"), EXAM_TEMPLATE, all_questions, ALL_TITLE, AUTHOR, DATE, MARGIN)
+    write_tex(os.path.join(BUILD_ROOT, "all_problems_sol.tex"), SOL_TEMPLATE, all_sol_questions, ALL_SOL_TITLE, AUTHOR, DATE, MARGIN)
+    print("Generated .tex files for each bank (in build/) and for all problems (in build/).")
 
 if __name__ == "__main__":
     main()
