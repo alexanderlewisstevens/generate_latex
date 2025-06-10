@@ -9,11 +9,26 @@ if not API_KEY:
     raise RuntimeError("MY_API_KEY not set. Please set it in your .env file or environment.")
 
 # Example: Use OpenAI API to generate a LaTeX problem (replace with your API endpoint as needed)
+def extract_question_and_solution(latex_content):
+    # Try to split the content into question and solution parts
+    # Look for 'Solution:' or similar as a separator
+    if '\\begin{solution}' in latex_content:
+        parts = latex_content.split('\\begin{solution}', 1)
+        question = parts[0].strip()
+        solution = parts[1].replace('\\end{solution}', '').strip()
+    elif 'Solution:' in latex_content:
+        parts = latex_content.split('Solution:', 1)
+        question = parts[0].strip()
+        solution = parts[1].strip()
+    else:
+        question = latex_content.strip()
+        solution = '<solution here>'
+    return question, solution
+
 def generate_problem(prompt, bank_dir, problem_number):
-    # Example API call (replace with your actual API usage)
     headers = {"Authorization": f"Bearer {API_KEY}"}
     data = {
-        "model": "gpt-3.5-turbo-instruct",  # REQUIRED for OpenAI API
+        "model": "gpt-3.5-turbo-instruct",
         "prompt": prompt,
         "max_tokens": 150
     }
@@ -22,16 +37,23 @@ def generate_problem(prompt, bank_dir, problem_number):
         print(f"API error: {response.status_code} {response.text}")
         return False
     result = response.json()
-    # Extract the generated LaTeX (customize as needed)
-    latex_content = result.get("choices", [{}])[0].get("text", "")
-    if not latex_content.strip():
+    latex_content = result.get("choices", [{}])[0].get("text", "").strip()
+    if not latex_content:
         print("No content generated.")
         return False
-    # Write to the appropriate problem file
+    # Extract question and solution
+    question, solution = extract_question_and_solution(latex_content)
+    # Ensure the LaTeX content is wrapped in the standard format
+    formatted = f"% Example problem {problem_number}\n"
+    if not question.startswith('\\question'):
+        formatted += "\\question "
+    formatted += question.strip() + "\n"
+    formatted += "\\begin{solution}\n" + solution.strip() + "\n\\end{solution}\n"
+    formatted = formatted.strip() + "\n"
     os.makedirs(bank_dir, exist_ok=True)
     fname = os.path.join(bank_dir, f"problem{problem_number}.tex")
     with open(fname, "w") as f:
-        f.write(latex_content.strip())
+        f.write(formatted)
     print(f"Generated {fname}")
     return True
 

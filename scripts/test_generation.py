@@ -41,10 +41,10 @@ def run_pdflatex(tex_path, workdir):
 
 def main():
     # 1. Run the generation script(s)
-    print("[TEST] Running generate_banks.py...")
-    ret = subprocess.run(["python3", "scripts/generate_banks.py"])
+    print("[TEST] Running generate_all_banks_tex.py...")
+    ret = subprocess.run(["python3", "scripts/generate_all_banks_tex.py"])
     if ret.returncode != 0:
-        print("[FAIL] generate_banks.py failed.")
+        print("[FAIL] generate_all_banks_tex.py failed.")
         sys.exit(1)
 
     # 2. Check for expected files
