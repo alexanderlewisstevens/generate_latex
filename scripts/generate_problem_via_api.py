@@ -12,7 +12,11 @@ if not API_KEY:
 def generate_problem(prompt, bank_dir, problem_number):
     # Example API call (replace with your actual API usage)
     headers = {"Authorization": f"Bearer {API_KEY}"}
-    data = {"prompt": prompt, "max_tokens": 150}
+    data = {
+        "model": "gpt-3.5-turbo-instruct",  # REQUIRED for OpenAI API
+        "prompt": prompt,
+        "max_tokens": 150
+    }
     response = requests.post("https://api.openai.com/v1/completions", headers=headers, json=data)
     if response.status_code != 200:
         print(f"API error: {response.status_code} {response.text}")
