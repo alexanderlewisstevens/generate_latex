@@ -43,7 +43,11 @@ def generate_problem(prompt, bank_dir, problem_number):
         return False
     # Extract question and solution
     question, solution = extract_question_and_solution(latex_content)
-    # Ensure the LaTeX content is wrapped in the standard format
+    # Remove any point allocation like [10] from the start of the question
+    import re
+    if question.startswith('\\question'):
+        # Remove [number] after \question (e.g., \question[10])
+        question = re.sub(r'^\\question\s*\[[^\]]*\]', r'\\question', question)
     formatted = f"% Example problem {problem_number}\n"
     if not question.startswith('\\question'):
         formatted += "\\question "
