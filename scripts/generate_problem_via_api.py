@@ -28,9 +28,15 @@ def extract_question_and_solution(latex_content):
 def generate_problem(prompt, bank_dir, problem_number):
     headers = {"Authorization": f"Bearer {API_KEY}"}
     data = {
+<<<<<<< HEAD
         "model": "gpt-3.5-turbo-instruct",
         "prompt": prompt,
         "max_tokens": 500
+=======
+        "model": "gpt-3.5-turbo-instruct",  # REQUIRED for OpenAI API
+        "prompt": prompt,
+        "max_tokens": 150
+>>>>>>> 820f8e7 (Update API call in generate_problem_via_api.py to include model specification; add problem99.tex with quadratic equation problem and solution.)
     }
     response = requests.post("https://api.openai.com/v1/completions", headers=headers, json=data)
     if response.status_code != 200:
